@@ -11,7 +11,7 @@ func main() {
 	}
 }
 
-// Your answer should be "Small" because it's not bigger than 10
+// Your answer should be "Small" because i(10) is not bigger than 10
 
 // 2.
 
