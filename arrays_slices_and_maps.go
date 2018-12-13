@@ -1,12 +1,12 @@
 // 1.
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main () {
-// 	x := [5]float64{100, 200, 300, 400, 500}
-// 	fmt.Println(x[4])
-// }
+func main () {
+	x := [5]float64{100, 200, 300, 400, 500}
+	fmt.Println(x[4])
+}
 
 // In the above code we have 5 elements, if we run this code we'll have "500" as our
 // answer because it is the 4th indexed element in that array.
@@ -19,14 +19,14 @@
 // higher value taken as the maximum capacity.
 
 // 3.
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
-// func main () {
-// 	x := [6]string{"a", "b", "c", "d", "e", "f"}
-// 	fmt.Println(x[2:5])
-// }
+func main () {
+	x := [6]string{"a", "b", "c", "d", "e", "f"}
+	fmt.Println(x[2:5])
+}
 
 // the logic behind these ':' expressions are quite simple...it prints out everything
 // from the 2nd element(start counting from 0) till the fourth element (now that is the nature of this
